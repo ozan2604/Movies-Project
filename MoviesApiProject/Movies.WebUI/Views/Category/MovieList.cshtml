@@ -1,0 +1,11 @@
+﻿﻿@using Movies.WebUI.Dtos.CategoryDtos
+@model List<ResultCategoryWithMovieDto>
+@{
+    Layout = null;
+}
+
+@foreach (var item in Model)
+{
+    <p>@item.categoryName </p>
+    <p>@item.movieName </p>
+}

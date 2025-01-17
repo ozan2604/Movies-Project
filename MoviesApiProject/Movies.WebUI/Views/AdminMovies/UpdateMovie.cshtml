@@ -1,0 +1,54 @@
+﻿﻿@using Movies.WebUI.Dtos.MovieDtos
+@model UpdateMovieDto
+@{
+    ViewData["Title"] = "UpdateMovie";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Film Güncelle</h4>
+                <p class="card-description">Formu doldurarak mevcut bir filmi güncelleyebilirsiniz.</p>
+                <form class="forms-sample" method="post" asp-action="UpdateMovie">
+                    <input type="hidden" asp-for="MovieId" />
+                    <div class="form-group">
+                        <label for="MovieName">Film Adı</label>
+                        <input type="text" class="form-control" asp-for="MovieName" placeholder="Film adı giriniz" />
+                    </div>
+                    <div class="form-group">
+                        <label for="MovieImageUrl">Resim URL</label>
+                        <input type="text" class="form-control" asp-for="MovieImageUrl" placeholder="Resim URL'si giriniz" />
+                    </div>
+                    <div class="form-group">
+                        <label for="MovieDescription">Açıklama</label>
+                        <textarea class="form-control" asp-for="MovieDescription" placeholder="Film açıklaması giriniz"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="MovieScore">Puan</label>
+                        <input type="text" class="form-control" asp-for="MovieScore" placeholder="Film puanı giriniz" />
+                    </div>
+                    <div class="form-group">
+                        <label for="MovieCreatedDate">Oluşturulma Tarihi</label>
+                        <input type="text" class="form-control" asp-for="MovieCreatedDate" />
+                    </div>
+                    <div class="form-group">
+                        <label for="CategoryId">Kategori</label>
+                        <select class="form-control" asp-for="CategoryId" asp-items="ViewBag.categorys">
+                            <option value="">Kategori Seçiniz</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">Güncelle</button>
+                    <a href="/AdminMovie/MovieList" class="btn btn-dark">Vazgeç</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .form-group label {
+        font-weight: bold;
+    }
+</style>

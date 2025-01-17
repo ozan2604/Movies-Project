@@ -1,0 +1,60 @@
+﻿﻿@using Movies.WebUI.Dtos.MovieDtos
+@model List<ResultMovieDto>
+
+<div class="movie-items">
+	<div class="container">
+		<div class="row ipad-width">
+			<div class="col-md-8">
+				<div class="title-hd">
+					<h2>Sinema Filmleri</h2>
+					<a href="#" class="viewall">Tümünü gör<i class="ion-ios-arrow-right"></i></a>
+				</div>
+				<div class="tabs">
+					<ul class="tab-links">
+						<li class="active"><a href="#tab1">#Popüler</a></li>
+						<li><a href="#tab2"> #Yeni</a></li>
+						<li><a href="#tab3">  #En Beğenilenler</a></li>
+						<li><a href="#tab4"> #En Çok İzlenenler</a></li>
+					</ul>
+					<div class="tab-content">
+						<div id="tab1" class="tab active">
+							<div class="row">
+								<div class="slick-multiItem">
+									@foreach (var item in Model)
+									{
+										<div class="slide-it">
+											<div class="movie-item">
+												<div class="mv-img">
+													<img src="@item.movieImageUrl" alt="" width="185" height="284">
+												</div>
+												<div class="hvr-inner">
+													<a href="/Detail/Index/@item.movieId">Detay <i class="ion-android-arrow-dropright"></i> </a>
+												</div>
+												<div class="title-in">
+													<h6><a href="#">@item.movieName</a></h6>
+													<p><i class="ion-android-star"></i><span>@item.movieScore</span> /10</p>
+												</div>
+											</div>
+										</div>
+									}
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				@await Component.InvokeAsync("_InListSeries")
+			</div>
+			@await Component.InvokeAsync("_Last3Movie")
+			@await Component.InvokeAsync("_Last3Serie")
+
+
+		</div>
+	</div>
+</div>
+<style>
+	.col-md-4 {
+		margin-bottom: 70px;
+	}
+</style>

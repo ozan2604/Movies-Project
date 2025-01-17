@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "/0bDYIdDrpylgJrS+WUt14gE4bjZleQJy58K15IaA1Y=",
+  "Source": "Movies.WebApi",
+  "BasePath": "_content/Movies.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

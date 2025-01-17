@@ -1,0 +1,129 @@
+﻿﻿
+@using Movies.DtoLayer.SerieDtos
+@model SerieWithCategoryDto
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+<div class="hero mv-single-hero">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<!-- <h1> movie listing - list</h1>
+				<ul class="breadcumb">
+					<li class="active"><a href="#">Home</a></li>
+					<li> <span class="ion-ios-arrow-right"></span> movie listing</li>
+				</ul> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="page-single movie-single movie_single">
+	<div class="container">
+		<div class="row ipad-width2">
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<div class="movie-img fixed">
+					<img src="/Film-Review-Movie-Database/images/uploads/movie-single.jpg" alt="">
+					<div class="movie-btn">
+						<div class="btn-transform transform-vertical red">
+							<div><a href="#" class="item item-1 redbtn"> <i class="ion-play"></i> Fragmanı İzle</a></div>
+							<div><a href="#" class="item item-2 redbtn fancybox-media hvr-grow"><i class="ion-play"></i></a></div>
+						</div>
+						<div class="btn-transform transform-vertical">
+							<div><a href="#" class="item item-1 yellowbtn"> <i class="ion-card"></i> Bilet Al</a></div>
+							<div><a href="#" class="item item-2 yellowbtn"><i class="ion-card"></i></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8 col-sm-12 col-xs-12">
+				<div class="movie-single-ct main-content">
+					<h1 class="bd-hd">@Model.SerieName <span> 2015</span></h1>
+					<div class="social-btn">
+						<a href="#" class="parent-btn"><i class="ion-heart"></i> Favorilere Ekle</a>
+						<div class="hover-bnt">
+							<a href="#" class="parent-btn"><i class="ion-android-share-alt"></i>Paylaş</a>
+							<div class="hvr-item">
+								<a href="#" class="hvr-grow"><i class="ion-social-facebook"></i></a>
+								<a href="#" class="hvr-grow"><i class="ion-social-twitter"></i></a>
+								<a href="#" class="hvr-grow"><i class="ion-social-googleplus"></i></a>
+								<a href="#" class="hvr-grow"><i class="ion-social-youtube"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="movie-rate">
+						<div class="rate">
+							<i class="ion-android-star"></i>
+							<p>
+								<span>@Model.SerieScore</span> /10<br>
+								<span class="rv">56 puanlama</span>
+							</p>
+						</div>
+						<div class="rate-star">
+							<p>Bu Filmi Puanla: </p>
+							<i class="ion-ios-star"></i>
+							<i class="ion-ios-star"></i>
+							<i class="ion-ios-star"></i>
+							<i class="ion-ios-star"></i>
+							<i class="ion-ios-star"></i>
+							<i class="ion-ios-star"></i>
+							<i class="ion-ios-star"></i>
+							<i class="ion-ios-star"></i>
+							<i class="ion-ios-star-outline"></i>
+						</div>
+					</div>
+					<div class="movie-tabs">
+						<div class="tabs">
+							<ul class="tab-links tabs-mv">
+								<li class="active"><a href="#overview">Genel Bakış</a></li>
+								<li><a href="#reviews"> İncelemeler</a></li>
+								<li><a href="#cast">  Oyuncular </a></li>
+								<li><a href="#media"> Medya</a></li>
+								<li><a href="#moviesrelated"> İlgili İçerikler</a></li>
+							</ul>
+							<div class="tab-content">
+								<div id="overview" class="tab active">
+									<div class="row">
+										<div class="col-md-8 col-sm-12 col-xs-12">
+											<p> @Model.SerieDescription</p>
+											<p>    Tony Stark creates the Ultron Program to protect the world, but when the peacekeeping program becomes hostile, The Avengers go into action to try and defeat a virtually impossible enemy together. Earth's mightiest heroes must come together once again to protect the world from global extinction.</p>
+
+										</div>
+
+										<div class="col-md-4 movie-tabs col-sm-12">
+											<div class="sb-it">
+												<h6>Yönetmen: </h6>
+												<p><a href="#">Joss Whedon</a></p>
+											</div>
+
+											<div class="sb-it">
+												<h6>Kategori:</h6>
+												<p><a href="#">@Model.CategoryName</a></p>
+											</div>
+											<div class="sb-it">
+												<h6>Çıkış Tarihi:</h6>
+												<p>May 1, 2015 (U.S.A)</p>
+											</div>
+											<div class="sb-it">
+												<h6>Uzunluk:</h6>
+												<p>141 dk</p>
+											</div>
+
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<style>
+	.movie-single-ct .tab-content p {
+		text-indent: 20px; /* Paragrafın başında 20px'lik bir girinti bırakır */
+		margin-bottom: 20px; /* Paragraflar arasına boşluk ekler */
+	}
+</style>

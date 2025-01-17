@@ -1,0 +1,15 @@
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.EntityLayer\bin\Debug\net8.0\Movies.EntityLayer.deps.json
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.EntityLayer\bin\Debug\net8.0\Movies.EntityLayer.runtimeconfig.json
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.EntityLayer\bin\Debug\net8.0\Movies.EntityLayer.dll
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.EntityLayer\bin\Debug\net8.0\Movies.EntityLayer.pdb
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.EntityLayer\obj\Debug\net8.0\Movies.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.EntityLayer\obj\Debug\net8.0\Movies.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.EntityLayer\obj\Debug\net8.0\Movies.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.EntityLayer\obj\Debug\net8.0\Movies.EntityLayer.AssemblyInfo.cs
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.EntityLayer\obj\Debug\net8.0\Movies.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.EntityLayer\obj\Debug\net8.0\Movies.EntityLayer.sourcelink.json
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.EntityLayer\obj\Debug\net8.0\Movies.EntityLayer.dll
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.EntityLayer\obj\Debug\net8.0\refint\Movies.EntityLayer.dll
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.EntityLayer\obj\Debug\net8.0\Movies.EntityLayer.pdb
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.EntityLayer\obj\Debug\net8.0\Movies.EntityLayer.genruntimeconfig.cache
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.EntityLayer\obj\Debug\net8.0\ref\Movies.EntityLayer.dll

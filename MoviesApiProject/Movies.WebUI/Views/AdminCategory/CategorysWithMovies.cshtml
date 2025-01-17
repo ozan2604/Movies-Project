@@ -1,0 +1,169 @@
+﻿﻿@using Movies.WebUI.Dtos.CategoryDtos
+@model List<ResultCategoryWithMovieDto>
+@{
+    ViewData["Title"] = "CategorysWithMovies";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<div class="col-lg-12 d-flex align-items-stretch">
+    <div class="card w-100">
+        <div class="card-body p-4">
+
+            <div class="category-header d-flex align-items-center mb-4">
+
+                <h3 class="category-title ms-3">@Model.FirstOrDefault()?.categoryName - Kategori Filmleri</h3>
+            </div>
+
+            <!-- Ürünler Listesi -->
+            <div class="product-list">
+                @foreach (var item in Model)
+                {
+                    @foreach (var movies in item.movies)
+                    {
+                        <div class="product-card mb-3">
+                            <div class="product-info d-flex flex-column align-items-center">
+                                <img src="@movies.MovieImageUrl" alt="@movies.MovieName" class="product-image" />
+                                <h6 class="product-name mt-2">@movies.MovieName</h6>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+            <!-- Geri Dön Butonu -->
+            <div class="mb-4">
+                <button class="btn btn-secondary" onclick="window.history.back()">Geri Dön</button>
+            </div>
+            <div class="pagination2">
+                <span>1. Sayfa:</span>
+                <a class="active" href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">...</a>
+                <a href="#">15</a>
+                <a href="#">16</a>
+                <a href="#"><i class="ion-arrow-right-b"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .category-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .category-image {
+        width: 80px;
+        height: 80px;
+        border-radius: 8px;
+        object-fit: cover;
+    }
+
+    .category-title {
+        margin-left: 20px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .product-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px; /* Aralıklar */
+        justify-content: space-evenly;
+    }
+
+    .product-card {
+        width: 300px; /* Kart genişliği */
+        padding: 15px;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #2c2c2c; /* Koyu arka plan */
+        color: white; /* Yazı rengi */
+    }
+
+        .product-card:hover {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            transform: scale(1.05);
+            transition: all 0.3s ease-in-out;
+        }
+
+    .product-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image {
+        width: 220px; /* Daha geniş */
+        height: 300px; /* Daha uzun dikdörtgen */
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .product-name {
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 600;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        max-width: 100%;
+    }
+
+    .mb-4 {
+        text-align: left;
+    }
+</style>
+
+
+
+@*
+@foreach (var item in Model)
+{
+
+    <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <a href="/x/x" class="btn btn-outline-primary" style="float: right; margin-top: 20px;"><i class="mdi mdi-plus-box"></i> Kategoriye Ait İçerik Ekle</a>
+                    <h4 class="card-title">@item.categoryName İçerikleri</h4>
+                    <div class="table-responsive">
+                        <br />
+                        <table class="table table-bordered table-hover" style="color:white;">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="sort" data-sort="name">#</th>
+                                    <th scope="col" class="sort" data-sort="budget">İsmi</th>
+                                    <th scope="col" class="sort" data-sort="status">Başlık</th>
+                                    <th scope="col" class="sort" data-sort="status">Kapak</th>
+
+                                    <th scope="col" class="sort text-center" data-sort="completion">İşlemler</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var x in item.movies)
+                                {
+
+                                    <tr>
+                                        <td>@x.MovieId</td>
+                                        <td>@x.MovieName</td>
+                                        <td>@x.MovieDescription</td>
+                                        <td><image style="width:80px; height:80px;" src="@x.MovieImageUrl"></image></td>
+
+                                        <td class="text-center">
+                                            <a href="/x/x/" class="btn btn-outline-danger" onclick="return confirm('Silmek istediğinize emin misiniz?');"><i class="ni ni-fat-remove"></i> Sil</a>
+                                            <a href="/x/x/" class="btn btn-outline-info" style="margin-left:25px;"><i class="ni ni-scissors"></i> Güncelle</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+} *@

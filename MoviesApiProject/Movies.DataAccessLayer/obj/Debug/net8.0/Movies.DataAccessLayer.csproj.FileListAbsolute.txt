@@ -1,0 +1,28 @@
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\bin\Debug\net8.0\Movies.DataAccessLayer.deps.json
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\bin\Debug\net8.0\Movies.DataAccessLayer.runtimeconfig.json
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\bin\Debug\net8.0\Movies.DataAccessLayer.dll
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\bin\Debug\net8.0\Movies.DataAccessLayer.pdb
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\bin\Debug\net8.0\Movies.EntityLayer.dll
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\bin\Debug\net8.0\Movies.EntityLayer.pdb
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\bin\Debug\net8.0\Debug\net8.0\Movies.DataAccessLayer.deps.json
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\bin\Debug\net8.0\Debug\net8.0\Movies.DataAccessLayer.runtimeconfig.json
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\bin\Debug\net8.0\Debug\net8.0\Movies.DataAccessLayer.dll
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\bin\Debug\net8.0\Debug\net8.0\Movies.DataAccessLayer.pdb
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\bin\Debug\net8.0\Debug\net8.0\Movies.EntityLayer.dll
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\bin\Debug\net8.0\Debug\net8.0\Movies.EntityLayer.pdb
+C:\bin\Debug\net8.0\Debug\net8.0\Movies.DataAccessLayer.deps.json
+C:\bin\Debug\net8.0\Debug\net8.0\Movies.DataAccessLayer.runtimeconfig.json
+C:\bin\Debug\net8.0\Debug\net8.0\Movies.DataAccessLayer.dll
+C:\bin\Debug\net8.0\Debug\net8.0\Movies.DataAccessLayer.pdb
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\obj\Debug\net8.0\Movies.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\obj\Debug\net8.0\Movies.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\obj\Debug\net8.0\Movies.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\obj\Debug\net8.0\Movies.DataAccessLayer.AssemblyInfo.cs
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\obj\Debug\net8.0\Movies.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\obj\Debug\net8.0\Movies.DataAccessLayer.sourcelink.json
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\obj\Debug\net8.0\Movies.D.C58267B0.Up2Date
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\obj\Debug\net8.0\Movies.DataAccessLayer.dll
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\obj\Debug\net8.0\refint\Movies.DataAccessLayer.dll
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\obj\Debug\net8.0\Movies.DataAccessLayer.pdb
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\obj\Debug\net8.0\Movies.DataAccessLayer.genruntimeconfig.cache
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DataAccessLayer\obj\Debug\net8.0\ref\Movies.DataAccessLayer.dll

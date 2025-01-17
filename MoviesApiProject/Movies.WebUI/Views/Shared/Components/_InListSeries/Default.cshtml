@@ -1,0 +1,45 @@
+﻿﻿@using Movies.WebUI.Dtos.SerieDtos
+@model List<ResultSerieDto>
+
+<div class="title-hd">
+    <h2>Diziler</h2>
+    <a href="#" class="viewall">Tümünü gör<i class="ion-ios-arrow-right"></i></a>
+</div>
+<div class="tabs">
+    <ul class="tab-links">
+        <li class="active"><a href="#tab1">#Popüler</a></li>
+        <li><a href="#tab2"> #Yeni</a></li>
+        <li><a href="#tab3">  #En Beğenilenler</a></li>
+        <li><a href="#tab4"> #En Çok İzlenenler</a></li>
+    </ul>
+    <div class="tab-content">
+        <div id="tab1" class="tab active">
+            <div class="row">
+                <div class="slick-multiItem">
+
+                    @foreach (var item in Model)
+                    {
+                        <div class="slide-it">
+                            <div class="movie-item">
+                                <div class="mv-img">
+                                    <img src="@item.serieImageUrl" alt="" width="185" height="284">
+                                </div>
+                                <div class="hvr-inner">
+                                    <a href="/SerieDetail/Index/@item.serieId">Detay<i class="ion-android-arrow-dropright"></i> </a>
+                                </div>
+                                <div class="title-in">
+                                    <h6><a href="#">@item.serieName</a></h6>
+                                    <p><i class="ion-android-star"></i><span>@item.serieScore</span> /10</p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,136 @@
+﻿﻿@using Movies.WebUI.Dtos.MovieDtos
+@model List<ResultMovieDto>
+@{
+	ViewData["Title"] = "Film Listesi";
+	Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+<div class="hero common-hero">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="hero-ct">
+					<h1> film listesi</h1>
+					<ul class="breadcumb">
+						<li class="active"><a href="#">Anasayfa</a></li>
+						<li> <span class="ion-ios-arrow-right"></span> film listesi</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="page-single">
+	<div class="container">
+		<div class="row ipad-width">
+			<div class="col-md-8 col-sm-12 col-xs-12">
+				<div class="topbar-filter">
+					<p>Toplam <span>121 film</span> bulundu</p>
+					<label>Sıralama:</label>
+					<select>
+						<option value="popularity">Popülerlik Azalan</option>
+						<option value="popularity">Popülerlik Artan</option>
+						<option value="rating">Puan Azalan</option>
+						<option value="rating">Puan Artan</option>
+						<option value="date">Yayın Tarihi Azalan</option>
+						<option value="date">Yayın Tarihi Artan</option>
+					</select>
+					<a href="movielist.html" class="list"><i class="ion-ios-list-outline "></i></a>
+					<a href="moviegrid.html" class="grid"><i class="ion-grid active"></i></a>
+				</div>
+				<div class="flex-wrap-movielist">
+
+					@foreach (var item in Model)
+					{
+						<div class="movie-item-style-2 movie-item-style-1">
+							<img src="@item.movieImageUrl" alt="">
+							<div class="hvr-inner">
+								<a href="moviesingle.html"> Detay <i class="ion-android-arrow-dropright"></i> </a>
+							</div>
+							<div class="mv-item-infor">
+								<h6><a href="#">@item.movieName</a></h6>
+								<p class="rate"><i class="ion-android-star"></i><span>@item.movieScore</span> /10</p>
+							</div>
+						</div>
+					}
+
+				</div>
+				<div class="topbar-filter">
+					<label>Gösterilecek film sayısı:</label>
+					<select>
+						<option value="range">12 Film</option>
+						<option value="saab">22 Film</option>
+					</select>
+
+					<div class="pagination2">
+						<span>1. Sayfa:</span>
+						<a class="active" href="#">1</a>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a href="#">...</a>
+						<a href="#">15</a>
+						<a href="#">16</a>
+						<a href="#"><i class="ion-arrow-right-b"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<div class="sidebar">
+					<div class="searh-form">
+						<h4 class="sb-title">Film Ara</h4>
+						<form class="form-style-1" action="#">
+							<div class="row">
+								<div class="col-md-12 form-it">
+									<label>Film adı</label>
+									<input type="text" placeholder="Anahtar kelimeler girin">
+								</div>
+								<div class="col-md-12 form-it">
+									<label>Türler & Alt Türler</label>
+									<div class="group-ip">
+										<select name="skills" multiple="" class="ui fluid dropdown">
+											<option value="">Türleri filtrelemek için girin</option>
+											<option value="Action1">Aksiyon 1</option>
+											<option value="Action2">Aksiyon 2</option>
+											<option value="Action3">Aksiyon 3</option>
+											<option value="Action4">Aksiyon 4</option>
+											<option value="Action5">Aksiyon 5</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-12 form-it">
+									<label>Puan Aralığı</label>
+									<select>
+										<option value="range">-- Aşağıdaki puan aralığını seçin --</option>
+										<option value="saab">-- Puan aralığını seçin --</option>
+									</select>
+								</div>
+								<div class="col-md-12 form-it">
+									<label>Yayın Yılı</label>
+									<div class="row">
+										<div class="col-md-6">
+											<select>
+												<option value="range">Başlangıç</option>
+												<option value="number">10</option>
+											</select>
+										</div>
+										<div class="col-md-6">
+											<select>
+												<option value="range">Bitiş</option>
+												<option value="number">20</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-12 ">
+									<input class="submit" type="submit" value="Gönder">
+								</div>
+							</div>
+						</form>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,16 @@
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DtoLayer\bin\Debug\net8.0\Movies.DtoLayer.deps.json
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DtoLayer\bin\Debug\net8.0\Movies.DtoLayer.dll
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DtoLayer\bin\Debug\net8.0\Movies.DtoLayer.pdb
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DtoLayer\bin\Debug\net8.0\Movies.EntityLayer.dll
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DtoLayer\bin\Debug\net8.0\Movies.EntityLayer.pdb
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DtoLayer\obj\Debug\net8.0\Movies.DtoLayer.csproj.AssemblyReference.cache
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DtoLayer\obj\Debug\net8.0\Movies.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DtoLayer\obj\Debug\net8.0\Movies.DtoLayer.AssemblyInfoInputs.cache
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DtoLayer\obj\Debug\net8.0\Movies.DtoLayer.AssemblyInfo.cs
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DtoLayer\obj\Debug\net8.0\Movies.DtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DtoLayer\obj\Debug\net8.0\Movies.DtoLayer.sourcelink.json
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DtoLayer\obj\Debug\net8.0\Movies.D.ACAA2019.Up2Date
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DtoLayer\obj\Debug\net8.0\Movies.DtoLayer.dll
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DtoLayer\obj\Debug\net8.0\refint\Movies.DtoLayer.dll
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DtoLayer\obj\Debug\net8.0\Movies.DtoLayer.pdb
+C:\Users\Ozan\Desktop\C# Projeleri\MoviesApiProject\Movies.DtoLayer\obj\Debug\net8.0\ref\Movies.DtoLayer.dll

@@ -1,0 +1,278 @@
+﻿﻿
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+<head>
+    <!-- Basic need -->
+    <title>Block Buster</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="profile" href="#">
+
+    <!--Google Font-->
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Dosis:400,700,500|Nunito:300,400,600' />
+    <!-- Mobile specific meta -->
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone-no">
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="/Film-Review-Movie-Database/css/plugins.css">
+    <link rel="stylesheet" href="/Film-Review-Movie-Database/css/style.css">
+
+</head>
+<body>
+    <!--preloading-->
+    <div id="preloader">
+        <img class="logo" src="/Film-Review-Movie-Database/images/logo1.png" alt="" width="119" height="58">
+        <div id="status">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!--end of preloading-->
+    <!--login form popup-->
+    <div class="login-wrapper" id="login-content">
+        <div class="login-content">
+            <a href="#" class="close">x</a>
+            <h3>Giriş Yap</h3>
+            <form method="post" action="#">
+                <div class="row">
+                    <label for="username">
+                        Kullanıcı Adı:
+                        <input type="text" name="username" id="username" placeholder="Hugh Jackman" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label for="password">
+                        Şifre:
+                        <input type="password" name="password" id="password" placeholder="******" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                    </label>
+                </div>
+                <div class="row">
+                    <div class="remember">
+                        <div>
+                            <input type="checkbox" name="remember" value="Remember me"><span>Beni Hatırla</span>
+                        </div>
+                        <a href="#">Şifremi Unuttum?</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <button type="submit">Giriş Yap</button>
+                </div>
+            </form>
+            <div class="row">
+                <p>Sosyal Medya İle Giriş</p>
+                <div class="social-btn-2">
+                    <a class="fb" href="#"><i class="ion-social-facebook"></i>Facebook</a>
+                    <a class="tw" href="#"><i class="ion-social-twitter"></i>twitter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end of login form popup-->
+    <!--signup form popup-->
+    <div class="login-wrapper" id="signup-content">
+        <div class="login-content">
+            <a href="#" class="close">x</a>
+            <h3>Kayıt Ol</h3>
+            <form method="post" action="#">
+                <div class="row">
+                    <label for="username-2">
+                        Kullanıcı Adı:
+                        <input type="text" name="username" id="username-2" placeholder="Hugh Jackman" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label for="email-2">
+                        Mail:
+                        <input type="password" name="email" id="email-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                    </label>
+                </div>
+                <div class="row">
+                    <label for="password-2">
+                        Şifre:
+                        <input type="password" name="password" id="password-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                    </label>
+                </div>
+                <div class="row">
+                    <label for="repassword-2">
+                        Şifre Tekrar:
+                        <input type="password" name="password" id="repassword-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                    </label>
+                </div>
+                <div class="row">
+                    <button type="submit">Kayıt Ol</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--end of signup form popup-->
+    <!-- BEGIN | Header -->
+    <header class="ht-header">
+        <div class="container">
+            <nav class="navbar navbar-default navbar-custom">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header logo">
+                    <div class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <div id="nav-icon1">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <a href="index-2.html"><img class="logo" src="/Film-Review-Movie-Database/images/logo1.png" alt="" width="119" height="58"></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse flex-parent" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav flex-child-menu menu-left">
+                        <li class="hidden">
+                            <a href="/Default/Index/"></a>
+                        </li>
+                        <li class="dropdown first">
+                            <a class="btn btn-default " href="/Default/Index/" ">
+                                Anasayfa <i class="fa fa-angle" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="dropdown first">
+                            <a class="btn btn-default " href="/Movie/MovieList/" ">
+                                Filmler <i class="fa fa-angle" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="dropdown first">
+                            <a class="btn btn-default " href="/Serie/SerieList/" ">
+                                Diziler <i class="fa fa-angle" aria-hidden="true"></i>
+                            </a>
+                        </li>
+
+                            @*   <li class="dropdown first">
+                        <a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+                        Filmler  <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </a>
+                        <ul class="dropdown-menu level1">
+
+                        <li><a href="/Detail/Index">Filmler</a></li>
+                        <li><a href="/SerieDetail/Index">Diziler</a></li>
+
+                        </ul>
+                        </li>
+
+                        <li class="dropdown first">
+                        <a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+                        Blog <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </a>
+                        <ul class="dropdown-menu level1">
+                        <li><a href="celebritygrid01.html">celebrity grid 01</a></li>
+                        <li><a href="celebritygrid02.html">celebrity grid 02 </a></li>
+                        <li><a href="celebritylist.html">celebrity list</a></li>
+                        <li class="it-last"><a href="celebritysingle.html">celebrity single</a></li>
+                        </ul>
+                        </li> *@
+                        <li class="dropdown first">
+                            <a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+                                İletişim  <i class="fa fa-angle" aria-hidden="true"></i>
+                            </a>
+                            <ul class="dropdown-menu level1">
+                                <li><a href="bloglist.html">blog List</a></li>
+                                <li><a href="bloggrid.html">blog Grid</a></li>
+                                <li class="it-last"><a href="blogdetail.html">blog Detail</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <ul class="nav navbar-nav flex-child-menu menu-right">
+                        <li><a href="#">İstekler</a></li>
+                        <li><a href="#">Yardım</a></li>
+                        <li class="loginLink"><a href="#">Giriş Yap</a></li>
+                        <li class="btn signupLink"><a href="#">Kayıt Ol</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </nav>
+
+            <!-- top search form -->
+            <div class="top-search">
+                <select>
+                    <option value="united">Tümü</option>
+                    <option value="saab">Dizi</option>
+                    <option value="saab">Film</option>
+                </select>
+                <input type="text" placeholder="Aradığınız bir filmi yada diziyi yazın">
+            </div>
+        </div>
+    </header>
+    <!-- END | Header -->
+                            @RenderBody()
+    <!-- latest new v1 section-->
+    <!--end of latest new v1 section-->
+    <!-- footer section-->
+    <footer class="ht-footer">
+        <div class="container">
+            <div class="flex-parent-ft">
+                <div class="flex-child-ft item1">
+                    <a href="index-2.html"><img class="logo" src="/Film-Review-Movie-Database/images/logo1.png" alt=""></a>
+                    <p>
+                        5th Çankaya st, İncek<br>
+                        Ankara, AN 10001
+                    </p>
+                    <p>İletişim: <a href="#">(+90) 312 342 6789</a></p>
+                </div>
+                <div class="flex-child-ft item2">
+                    <h4>Kaynaklar</h4>
+                    <ul>
+                        <li><a href="#">Hakkımızda</a></li>
+                        <li><a href="#">Blockbuster</a></li>
+                        <li><a href="#">Bize Ulaşın</a></li>
+                        <li><a href="#">Forumlar</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Yardım Merkezi</a></li>
+                    </ul>
+                </div>
+                <div class="flex-child-ft item3">
+                    <h4>Hukuki</h4>
+                    <ul>
+                        <li><a href="#">Kullanım Şartları</a></li>
+                        <li><a href="#">Gizlilik Politikası</a></li>
+                        <li><a href="#">Güvenlik</a></li>
+                    </ul>
+                </div>
+                <div class="flex-child-ft item4">
+                    <h4>Hesap</h4>
+                    <ul>
+                        <li><a href="#">Hesabım</a></li>
+                        <li><a href="#">İzleme Listesi</a></li>
+                        <li><a href="#">Koleksiyonlar</a></li>
+                        <li><a href="#">Kullanıcı Rehberi</a></li>
+                    </ul>
+                </div>
+                <div class="flex-child-ft item5">
+                    <h4>Bülten</h4>
+                    <p>Şimdi bülten sistemimize abone olun <br> ve bizden en son haberleri alın.</p>
+                    <form action="#">
+                        <input type="text" placeholder="E-posta adresinizi girin...">
+                    </form>
+                    <a href="#" class="btn">Şimdi Abone Ol <i class="ion-ios-arrow-forward"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="ft-copyright">
+            <div class="ft-left">
+                <p><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></p>
+            </div>
+            <div class="backtotop">
+                <p><a href="#" id="back-to-top">Back to top  <i class="ion-ios-arrow-thin-up"></i></a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer section-->
+    <script src="/Film-Review-Movie-Database/js/jquery.js"></script>
+    <script src="/Film-Review-Movie-Database/js/plugins.js"></script>
+    <script src="/Film-Review-Movie-Database/js/plugins2.js"></script>
+    <script src="/Film-Review-Movie-Database/js/custom.js"></script>
+</body>
+
+</html>

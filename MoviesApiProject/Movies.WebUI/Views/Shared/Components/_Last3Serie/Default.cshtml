@@ -1,0 +1,25 @@
+﻿﻿@using Movies.WebUI.Dtos.SerieDtos
+@model List<ResultSerieDto>
+
+
+<div class="col-md-4 ">
+	<div class="sidebar">
+
+		<div class="celebrities">
+			<h4 class="sb-title">Son Eklenen Diziler</h4>
+			@foreach (var item in Model)
+			{
+				<div class="celeb-item">
+					<a href="#"><img src="@item.serieImageUrl" alt="" style="width: 70px; height: 70px;"></a>
+
+					<div class="celeb-author">
+						<h6><a href="#">@item.serieName</a></h6>
+						<span>Bugün</span>
+					</div>
+				</div>
+			}
+
+			<a href="#" class="btn">Tümünü gör<i class="ion-ios-arrow-right"></i></a>
+		</div>
+	</div>
+</div>

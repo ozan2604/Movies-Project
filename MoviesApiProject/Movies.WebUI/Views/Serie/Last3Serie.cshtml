@@ -1,0 +1,9 @@
+﻿﻿@using Movies.WebUI.Dtos.SerieDtos
+@model List<ResultSerieDto>
+
+<p>
+    @foreach (var item in Model)
+    {
+        @item.serieName
+    }
+</p>
